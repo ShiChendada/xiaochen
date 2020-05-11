@@ -1,0 +1,642 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+}
+a {
+    text-decoration: none;
+    font-family: '微软雅黑';
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+	list-style: none;
+}
+button{
+    border: none;
+    outline: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+#warp{
+    width: 1920px;
+    height: 2478px;
+    position: relative;
+    background: black;
+}
+#daohang{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+.daohangbuju{
+    width: 1200px;
+    height: 72px;
+    position: absolute;
+    left: 360px;
+}
+#daohang .daohangbuju .logo{
+    width: 140px;
+    height: 65px;
+    background: url(../img/logo.png) no-repeat;
+    float: left;
+    margin-left:1px;
+}
+#daohang .daohangbuju .wenan{
+    position: absolute;
+    width: 1200px;
+    height: 72px;
+    left: 348px;
+    letter-spacing:3px;
+    z-index: 2;
+}
+#daohang .daohangbuju .wenan li{
+    /* line-height: 72px; */
+    float: left;
+    margin-right:58px;
+    width: 80px;
+    height: 47px;
+    text-align: center;
+    padding-top: 22px;
+    border: 3px solid transparent;
+}
+#daohang .daohangbuju .wenan a{
+   color: #fff;
+}
+#daohang .daohangbuju .wenan .action{
+    border: 3px solid transparent;
+    border-image:linear-gradient(#a902ff, #03c4ff) 1 10;
+    border-bottom:none;
+    background: #000;
+}
+#daohang .daohangbuju .wenan2{
+    position: absolute;
+    line-height: 72px;
+    right: 62px;
+    z-index: 2;
+}
+#daohang .daohangbuju .wenan2 a{
+    color: #fff;
+}
+#daohang .daohangbuju .wenan2 .xiala{
+    cursor: pointer;
+}
+#daohang .daohangbuju .wenan2 .denl:hover{
+    text-decoration:underline;
+}
+#daohang .caisechangtioa{
+    width: 100%;
+    height: 3px;
+    background: radial-gradient(900px 388px at 874px 62px, #03c4ff,#a902ff);
+    position: absolute;
+    bottom: 0px;
+}
+#daohang .daohangbuju .jinyin{
+    position: absolute;
+    line-height: 72px;
+    right: 4px;
+    top: 25px;
+    z-index: 2;
+}
+#daohang .daohangbuju #sousuo{
+    position: absolute;
+    top: 15px;
+    left: 516px;
+    width: 250px;
+    color:#fff;
+    text-indent:12px;
+    font-size: 14px;
+    padding-right:35px ;
+    height: 40px;
+    border-radius: 50px;
+    background: #615e63;
+    z-index: 2;
+}
+#daohang .daohangbuju .souu{
+    position: absolute;
+    top: 25px;
+    left: 764px;
+    cursor: pointer;
+    z-index: 2;
+}
+#daohang .daohangbuju .sousuokuang{
+    display: none;
+}
+#daohang .dengluzhuc{
+    width: 341px;
+    height: 467px;
+    position: relative;
+    top: 91px;
+    display: none;
+}
+#daohang .dengluzhuc .zhuc{
+    left: 50px;
+    position: absolute;
+}
+#daohang .dengluzhuc .dakuang{
+    width: 341px;
+    height: 352px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0;
+}
+#daohang .dengluzhuc .dakuang .wenzi{
+    position: absolute;
+    top: 14px;
+    left: 90px;
+}
+#daohang .dengluzhuc .dakuang .wenzi li{
+    float: left;
+    margin-right: 82px;
+}
+#daohang .dengluzhuc .dakuang .wenzi a{
+    color: #000;
+}
+#daohang .dengluzhuc .dakuang .wenzi a .action{
+    color: transparent;
+    background: linear-gradient(to right, #de1aff, #2fc7ff);
+}
+#daohang .dengluzhuc .dakuang .caisetiao1{
+    width: 36px;
+    height: 3px;
+    background: #de1aff;
+    position: absolute;
+    left: 85px;
+    top: 38px;
+    z-index: 99;
+    display: none;
+}
+#daohang .dengluzhuc .dakuang .caisetiao2{
+    width: 36px;
+    height: 3px;
+    background: #de1aff;
+    position: absolute;
+    left: 201px;
+    top: 38px;
+    z-index: 99;
+    display: none;
+}
+#daohang .dengluzhuc .dakuang .huisechangtiao{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #bfbfbf;
+    top: 39px;
+}
+#daohang .dengluzhuc .dakuang .wenb{
+    position: absolute;
+    width: 276px;
+    height: 27px;
+    left: 32px;
+    padding-left: 15px;
+    border-radius: 50px;
+    border: 1px solid #615e63;
+}
+#daohang .dengluzhuc .dakuang .wenb1{
+    top: 73px;
+}
+#daohang .dengluzhuc .dakuang .wenb2{
+    top: 119px;
+}
+#daohang .dengluzhuc .dakuang .wenb3{
+    top: 164px;
+    width: 177px;
+}
+#daohang .dengluzhuc .dakuang .wenb4{
+    top: 208px;
+}
+#daohang .dengluzhuc .dakuang .wenb5{
+    top: 252px;
+}
+#daohang .dengluzhuc .dakuang .yanzm{
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 230px;
+    border-radius: 50px;
+    top: 164px;
+    cursor: pointer;
+    background: linear-gradient(to right, #de1aff, #2fc7ff);
+}
+#daohang .dengluzhuc .dakuang .yanzm p{
+    color: #fff;
+    position: absolute;
+    left: 7px;
+    line-height: 29px;
+}
+#daohang .dengluzhuc .dakuang .fanhui{
+    position: absolute;
+    top: 300px;
+    left: 122px;
+    width: 92px;
+    height: 27px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #de1aff, #2fc7ff);
+    color: #fff;
+    cursor: pointer;
+}
+#warp .banner{
+    width: 1920px;
+    height: 600px;
+    background: rebeccapurple;
+    position: absolute;
+}
+
+
+#warp .baise{
+    position: relative;
+    width: 1109px;
+    height: 1926px;
+    background: url(../img/baise.png);
+    top: 432px;
+}
+#warp .tiandi{
+    position: relative;
+    width: 1000px;
+    height: 529px;
+    /* background: rgba(114, 81, 148, 0.123); */
+}
+#warp .tiandi p:nth-child(1){
+    font-size: 16px;
+    font-family: '微软雅黑';
+    left: 466px;
+    top: 20px;
+    position: absolute;
+}
+#warp .tiandi p:nth-child(3){
+    font-size: 14px;
+    font-family: '微软雅黑';
+    top: 93px;
+    position: absolute;
+}
+/* #warp .tiandi p:nth-child(3) span{
+    color: linear-gradient(to right, #de1aff, #2fc7ff);
+} */
+#warp .tiandi p:nth-child(4){
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #999999;
+    left: 950px;
+    top: 93px;
+    position: absolute;
+}
+#warp .tiandi .fengelan{
+    left: 457px;
+    top: 50px;
+    position: absolute;
+}
+#warp .tiandi .block1{ 
+    width: 357px;
+    height:382px;
+    left: -349px;
+    top: 119px;
+    position: relative;
+}
+
+#warp .tiandi .block1 .hover{ 
+    width: 63px;
+    height:23px;
+	position: absolute;
+	left: 268px;
+	top: 304px;
+	background: url(../img/cao.png) no-repeat;
+	background-position: top;
+	z-index: 99;
+}
+
+#warp .tiandi .block1 .hover:hover{ 
+	background-position: bottom;
+}
+
+#warp .tiandi .block1 img:nth-child(1){
+    position: absolute;
+    left: 10px;
+    z-index: 99;
+    top: 302px;  
+}
+#warp .tiandi .block1 img:nth-child(2){
+    position: absolute;
+   left: 28px;
+   top: 303px;
+}
+#warp .tiandi .block2{
+    width: 357px;
+    height:382px;
+    left: -2px;
+    top: -262px;
+    position: relative;
+    /* background: rebeccapurple; */
+}
+
+#warp .tiandi .block2 .hover1{ 
+    width: 63px;
+    height:23px;
+	position: absolute;
+	left: 268px;
+	top: 304px;
+	background: url(../img/cao.png) no-repeat;
+	background-position: top;
+	z-index: 99;
+}
+
+#warp .tiandi .block2 .hover1:hover{ 
+	background-position: bottom;
+	z-index: 99;
+}
+
+#warp .tiandi .block2 img:nth-child(1){
+    position: absolute;
+    left: 10px;
+    z-index: 99;
+    top: 302px;  
+}
+#warp .tiandi .block2 img:nth-child(2){
+    position: absolute;
+	left: 31px;
+	bottom: 49px;
+}
+#warp .tiandi .block3{
+    width: 357px;
+    height:382px;
+    left: 361px;
+    top: -644px;
+    position: relative;
+    /* background: rebeccapurple; */
+}
+
+#warp .tiandi .block3 .hover2{ 
+    width: 63px;
+    height:23px;
+	position: absolute;
+	left: 268px;
+	top: 304px;
+	background: url(../img/cao.png) no-repeat;
+	background-position: top;
+	z-index: 99;
+}
+
+#warp .tiandi .block3 .hover2:hover{ 
+	background-position: bottom;
+	z-index: 99;
+}
+
+#warp .tiandi .block3 img:nth-child(1){
+    position: absolute;
+    left: 10px;
+    z-index: 99;
+    top: 302px;  
+}
+#warp .tiandi .block3 img:nth-child(2){
+    position: absolute;
+    left: 33px;
+    bottom: 45px;
+}
+
+
+
+
+/* #carousel img:nth-child(1){
+
+} */
+ .zhangyixing{
+    position: absolute;
+    z-index: 9999999;
+    display: ;
+    
+}
+#warp .baise .gengduo{
+    width: 1000px;
+    height: 309px;
+    left: 54px;
+    position: absolute;
+    /* background: rgba(88, 255, 241, 0.411); */
+}
+#warp .baise .gengduo p:nth-child(1){
+    font-size: 14px;
+    font-family: '微软雅黑';
+    position: absolute;
+    top: 28px;
+}
+#warp .baise .gengduo p:nth-child(2){
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #999999;
+    top: 28px;
+    left: 950px;
+    position: absolute;
+}
+#warp .baise .gengduo .g-o{
+    width: 180px;
+    height: 202px;
+    /* background: red; */
+    position: absolute;
+    top: 73px;
+}
+
+#warp .baise .gengduo .g-o .jiji{
+    width: 66px;
+    height: 22px;
+    background: url(../img/jiji.png);
+	background-position: top;
+    position: absolute;
+    top: 112px;
+	left: 55px;
+	z-index: 90;
+}
+
+#warp .baise .gengduo .g-o .jiji:hover{
+	background-position: bottom;
+}
+
+#warp .baise .gengduo .g-o img:nth-child(1){
+    position: absolute;
+    left: 40px;
+    top: 72px;
+    z-index: 99;
+}
+#warp .baise .gengduo .g-o img:nth-child(2){
+    position: absolute;
+	top: 79px;
+	left: 40px;
+}
+#warp .baise .gengduo .g-t{
+    width: 180px;
+    height: 202px;
+    /* background: red; */
+    position: absolute;
+    top: 73px;
+    left: 204px;
+}
+#warp .baise .gengduo .g-t img:nth-child(1){
+    position: absolute;
+    left: 150px;
+    top: 9px;
+}
+#warp .baise .gengduo .g-th{
+    width: 180px;
+    height: 202px;
+    /* background: red; */
+    position: absolute;
+    top: 73px;
+    left: 408px;
+}
+#warp .baise .gengduo .g-th img:nth-child(1){
+    position: absolute;
+    left: 150px;
+    top: 9px;
+}
+#warp .baise .gengduo .g-f{
+    width: 180px;
+    height: 202px;
+    /* background: red; */
+    position: absolute;
+    top: 73px;
+    left: 612px;
+}
+#warp .baise .gengduo .g-f img:nth-child(1){
+    position: absolute;
+    left: 150px;
+    top: 9px;
+}
+#warp .baise .gengduo .g-fi{
+    width: 180px;
+    height: 202px;
+    /* background: red; */
+    position: absolute;
+    top: 73px;
+    left: 816px;
+}
+#warp .baise .gengduo .g-fi img:nth-child(1){
+    position: absolute;
+    left: 150px;
+    top: 9px;
+}
+
+#warp .baise .fuwu{
+    width: 1103px;
+    height: 326px;
+    position: relative;
+    /* background:red; */
+    background: url(../更多视频/背景.png);
+    top: 361px;
+}
+#warp .baise .fuwu .biaoti{
+    position: absolute;
+    top: 18px;
+    left: 280px;
+}
+#warp .baise .fuwu .kaitong{
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    background: red;
+    background: url(../更多视频/未标题-8.png) no-repeat;
+    background-position: top;
+    left: 500px;
+    top: 263px;
+
+}
+#warp .baise .fuwu .kaitong:hover{
+    background-position: bottom;
+}
+
+#warp .baise .down{
+    width: 1103px;
+    height: 250px;
+    background: #050505;
+    top: 361px;
+    position: relative;
+}
+#warp .baise .down img{
+    position: absolute;
+    top: 51px;
+    left: 80px;
+}
+
+
+
+#banner {
+	margin-bottom:-10px;
+}
+
+#banner .biaoti{
+	width: 88px;
+	height: 84px;
+	background: url(../img/qq.jpg) no-repeat;
+}
+#carousel {
+	position:relative;
+	z-index:2;
+	margin-top:20px;
+	transform-style:preserve-3d;
+	perspective:800px;
+}
+#carousel img {
+	position:absolute;
+	left:54%;
+	top:50%;
+	margin-left:-252px;
+	transition:transform .5s ease-in-out;
+	box-shadow:8px 8px 20px rgba(0,0,0,.2);
+    cursor:pointer;
+
+}
+/* #carousel .wushixun{
+    margin-left: -86px;
+}
+#carousel .zhangyixing{
+    margin-left: -439px;
+} */
+#bannerNav {
+	position:relative;
+	margin-top:20px;
+	height:10px;
+	padding:10px 0;
+	text-align:center;
+}
+#bannerNav ul li {
+	cursor:pointer;
+	overflow:hidden;
+	display:inline-block;
+	width:22px;
+	margin:0 2px;
+}
+#bannerNav ul li a {
+	margin:0 auto;
+	display:block;
+	width:6px;
+	height:6px;
+	vertical-align:top;
+	border-radius:3px;
+	background:#5e6671;
+	font-size:0;
+}
+#bannerNav ul li.on a,#bannerNav ul li:hover a {
+	background:#00aeff;
+}
+#bannerNav ul li.on a {
+	width:20px;
+}
+
+#carousel {
+	height:400px;
+}
+#carousel img {
+	width:400px;
+	border-radius: 10px;
+	/* opacity: 0; */
+}
+.gengduo .luozhixiang{
+    position: absolute;
+    z-index: 9999;
+    /* left: -470px;
+    top: -186px; */
+    display: none;
+}

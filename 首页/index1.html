@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div id="warp">
+        <div id="daohang">
+            <div class="daohangbuju">
+                    <div class="logo"></div>
+                    <ul class="wenan">
+                        <li class="action"><a href="#">首页</a></li>
+                        <li><a href="guanyu/index.html">个人中心</a></li>
+                        <li><a href="vip/index.html">vip</a></li>
+                        <li><a href="#">关于我们</a></li>
+                    </ul>
+                    <div class="wenan2">
+                        <img src="img/xiala.png" alt="" class="xiala">
+                        <a href="#" class="denl">登录&nbsp;|&nbsp;注册</a>
+                    </div>
+                    <img src="img/jinyin.png" alt="" class="jinyin">
+                    <audio src="audio/insomnia.mp3" class="ad"></audio>
+                    <div class="sousuokuang">
+                        <input type="text" placeholder="搜音乐/搜歌手/搜MV" id="sousuo">
+                    <span class="souu"><img src="img/sousuo.png" alt=""></span>
+                    </div>
+            </div>
+            <div class="caisechangtioa"></div>
+            <div class="dengluzhuc">
+                <img src="img/denlulogo.png" alt="" class="zhuc">
+                <div class="dakuang">
+                    <div class="baba">
+                    <ul class="wenzi">
+                        <li><a href="#" class="a1">登录</a></li>
+                        <li><a href="#" class="a2">注册</a></li>
+                    </ul>
+                    <div class="caisetiao2"></div>
+                    <div class="caisetiao1"></div>
+                </div>
+                    <div class="huisechangtiao"></div>
+                    <input type="text" placeholder="用户名" class="wenb wenb1">
+                    <input type="text" placeholder="手机号" class="wenb wenb2">
+                    <input type="text" placeholder="请输入验证码" class="wenb wenb3">
+                    <div class="yanzm">
+                        <p>获取验证码</p>
+                    </div>
+                    <input type="text" placeholder="密码" class="wenb wenb4">
+                    <input type="text" placeholder="请确认密码" class="wenb wenb5">
+                    <button class="fanhui">返回登录</button>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="htmleaf-container">
+            <div class="banner" id="banner1" style="margin: 50px auto;">
+                <div class="banner-view"></div>
+                <div class="banner-btn"></div>
+                <div class="banner-number"></div>
+                <div class="banner-progres"></div>
+            </div>
+        </div> 
+        
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            var banner = new FragmentBanner({
+                container : "#banner1",//选择容器 必选
+                imgs : ['img/banner1.png','img/banner2.png','img/banner3.png','img/banner3.png','img/banner3.png'],//图片集合 必选
+                size : {
+                    width : 1920,
+                    height : 692
+                },//容器的大小 可选
+                //行数与列数 可选
+                grid : {
+                    line : 12,
+                    list : 14
+                },
+                index: 0,//图片集合的索引位置 可选
+                type : 2,//切换类型 1 ， 2 可选
+                boxTime : 5000,//小方块来回运动的时长 可选
+                fnTime : 10000//banner切换的时长 可选
+            });
+        </script>
+        <div id="remendanq">
+            <img src="img/remendanq.png" alt="" class="remendanq">
+            <ul class="wenan">
+                <li class="zhuyao m">华语</li>
+                <li class="mm">流行</li>
+                <li>摇滚</li>
+                <li>民谣</li>
+                <li>治愈</li>
+                <li class="gengduo">更多</li>
+            </ul>
+            <div class="diepian">
+                    <img src="img/4.png" alt="" class="guangdie">
+                    <img src="img/54324.png" alt="" id="die">
+            </div>
+
+            <img src="img/xuezhiqian.png" alt="" class="xiaotu xue">
+            <img src="img/daxuezhiq.png" alt="" class="datu xxxue">
+            <div class="huayu">
+                <div id="diezi">
+                    <div class="gec"></div>
+                </div>
+                <div id="gundon">
+
+                    <div class="gedan gedan1">
+                        <audio src="" class="a"></audio>
+                        <ul class="ge ge1">
+                            <p class="d">薛之谦</p>
+                            <li>《认真的雪》</li>
+                            <li class="ac">荣获十大金曲奖</li>
+                            <li><div class="bof bof1"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">张艺兴</p>
+                            <li>《独角戏》</li>
+                            <li class="ac">全球中文音乐榜第二位</li>
+                            <li><div class="bof bof2"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">易烊千玺</p>
+                            <li>《你说》</li>
+                            <li class="ac">全球中文音乐榜第三位</li>
+                            <li><div class="bof bof3"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">毛不易</p>
+                            <li>《平方的一天》</li>
+                            <li class="ac">网易云为止销量最高</li>
+                            <li><div class="bof bof4"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">薛之谦</p>
+                            <li>《认真的雪》</li>
+                            <li class="ac">荣获十大金曲奖</li>
+                            <li><div class="bof bof5"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">张艺兴</p>
+                            <li>《独角戏》</li>
+                            <li class="ac">全球中文音乐榜第二位</li>
+                            <li><div class="bof bof6"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">易烊千玺</p>
+                            <li>《你说》</li>
+                            <li class="ac">全球中文音乐榜第三位</li>
+                            <li><div class="bof bof7"></div></li>
+                        </ul>
+                        <ul class="ge ge1">
+                            <p class="d">毛不易</p>
+                            <li>《平方的一天》</li>
+                            <li class="ac">网易云为止销量最高</li>
+                            <li><div class="bof bof8"></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="img/zhangliangyingxiao.png" alt="" class="xiaotu zhang">
+            <img src="img/zhangliangyingda.png" alt="" class="datu xxzahng">
+            <div class="liux">
+                <div id="diezi">
+                    <div class="gec"></div>
+                </div>
+                <div id="gundon">
+
+                 <div class="gedan gedan2">
+                            <audio src="" class="hao"></audio>
+                            <ul class="ge ge1 gedan1">
+                                <p class="d z">张靓颖</p>
+                                <li>《我的梦》</li>
+                                <li class="ac">播放量遥遥领先</li>
+                                <li><div class="bof pos bof1"></div></li>
+                            </ul>
+                            <ul class="ge ge2 gedan2">
+                                <p class="d z">张艺兴</p>
+                                <li>《独角戏》</li>
+                                <li class="ac">全球中文音乐榜第二位</li>
+                                <li><div class="bof pos bof2"></div></li>
+                            </ul>
+                            <ul class="ge ge3 gedan1">
+                                <p class="d z">易烊千玺</p>
+                                <li>《你说》</li>
+                                <li class="ac">全球中文音乐榜第三位</li>
+                                <li><div class="bof pos bof3"></div></li>
+                            </ul>
+                            <ul class="ge ge4 gedan1">
+                                <p class="d z">毛不易</p>
+                                <li>《平方的一天》</li>
+                                <li class="ac">网易云为止销量最高</li>
+                                <li><div class="bof pos bof4"></div></li>
+                            </ul>
+                            <ul class="ge ge5 gedan1">
+                                <p class="d z">薛之谦</p>
+                                <li>《认真的雪》</li>
+                                <li class="ac">荣获十大金曲奖</li>
+                                <li><div class="bof pos bof5"></div></li>
+                            </ul>
+                            <ul class="ge ge6 gedan1">
+                                <p class="d z">张艺兴</p>
+                                <li>《独角戏》</li>
+                                <li class="ac">全球中文音乐榜第二位</li>
+                                <li><div class="bof pos bof6"></div></li>
+                            </ul>
+                            <ul class="ge ge7 gedan1">
+                                <p class="d z">易烊千玺</p>
+                                <li>《你说》</li>
+                                <li class="ac">全球中文音乐榜第三位</li>
+                                <li><div class="bof pos bof7"></div></li>
+                            </ul>
+                            <ul class="ge ge8 gedan1">
+                                <p class="d z">毛不易</p>
+                                <li>《平方的一天》</li>
+                                <li class="ac">网易云为止销量最高</li>
+                                <li><div class="bof pos bof8"></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+            </div>
+            <div class="dianzheg">
+                    <input type="text" placeholder="搜音乐/搜歌手" class="dasuosou">
+                    <button class="dian">搜索</button>
+            </div>
+            
+        </div>
+        <div id="paihangb">
+            <img src="img/paihangbang.png" alt="" class="pai">
+            <div class="ger asd">
+                    <img src="img/caiyi.png" alt="" class="cai play">
+                    <img src="img/liyif.png" alt="" class="cai">
+                    <img src="img/caiyi.png" alt="" class="cai">
+                    <img src="img/liyif.png" alt="" class="cai">
+                    <ul id="wenzi">
+                        <li class="wenans">人气最高</li>
+                        <li class="wenans">收听量最高</li>
+                        <li class="wenans">下载次数最多</li>
+                        <li class="wenans">点击率最高</li>
+                    </ul>
+                    <div class="changt nm"></div>
+                    <div class="changt nn"></div>
+                    <div class="changt mm"></div>
+                    <div class="changt mn"></div>
+                    <ul id="shuzi">
+                        <li class="abn opa">-&nbsp;01&nbsp;-</li>
+                        <li class="opa">-&nbsp;02&nbsp;-</li>
+                        <li class="opa">-&nbsp;03&nbsp;-</li>
+                        <li class="opa">-&nbsp;04&nbsp;-</li>
+                    </ul>
+                    <ul id="jiantou">
+                        <li class="i1"><</li>
+                        <li class="i2">></li>
+                    </ul>
+            </div>
+            <div class="ger xcc">
+                <div class="haoduos">
+                        <img src="img/yiy1wu.png" class="yiy yu">
+                        <img src="img/yiy2wu.png" class="yiy yy">
+                        <div class="yiy yq"></div>
+                        <div class="yiy yb"></div>
+                        <div class="yiy yn"></div>
+                </div>
+            </div>
+            <ul class="dibu">
+                <li class="adc">影视作品</li>
+                <li class="adc">个人单曲</li>
+                <li>MV</li>
+                <li>音乐成就</li>
+            </ul>
+        </div>
+        <div id="zuix">
+            <img src="img/zuixinzhuanji.png" alt="" class="zui">
+            <div class="z">
+                <p class="zhi">薛之谦</p>
+                <p>中国内地男歌手、音乐制作人、演员、商人</p>
+            </div>
+            <ul id="mu">
+                <audio src="" class="tinhao"></audio>
+                <li class="a">《木偶人》<div class="xz zx"></div></li>
+                <li class="a">《慢半拍》<div class="xz zx"></div></li>
+                <li class="a">《这么久没见》<div class="xz zx"></div></li>
+                <li class="a">《笑场》<div class="xz zx"></div></li>
+                <li class="a">《病态》<div class="xz zx"></div></li>
+            </ul>
+            <div id="tu1">
+                <div class="shutu luh"></div>
+                <div class="shutu yiyang"></div>
+                <div class="shutu luozhix"></div>
+            </div>
+            <div id="tu2">
+                <div class="shutu2 luh zjl"></div>
+                <div class="shutu2 yiyang zj"></div>
+                <div class="shutu2 luozhix hcy"></div>
+            </div>
+            <div class="z l">
+                <p class="zhi zhou">周杰伦</p>
+                <p>男歌手、词曲创作人、演员、制片人</p>
+            </div>
+            <ul id="mu1">
+                <audio src="" class="zhoudong"></audio>
+                <li class="v"><div class="xz xz1"></div>《七里香》</li>
+                <li class="v"><div class="xz xz1"></div>《叶美惠》</li>
+                <li class="v"><div class="xz xz1"></div>《八度空间》</li>
+                <li class="v"><div class="xz xz1"></div>《十二新作》</li>
+                <li class="v"><div class="xz xz1"></div>《哎呦,不错哦》</li>
+            </ul>
+        </div>
+        <div id="jincai">
+            <img src="img/jincai.png" alt="" class="jin">
+            <img src="img/shipbeijing.png" alt="" class="shi">
+            <div class="vide">
+                <div class="x"></div>
+                <video src="video/G-DRAGON.mkv" controls autoplay muted width="1049" height="476" class="video1"></video>
+            </div>
+            <div class="da">
+            <div class="daskuang">
+                <img src="img/ship1.png" alt="" class="sp haod">
+                <img src="img/ship2.png" alt="" class="sp">
+                <img src="img/ship1.png" alt="" class="sp">
+                <img src="img/ship2.png" alt="" class="sp">
+                <img src="img/dabof.png" alt="" class="bs">
+            </div>
+        </div>
+            <div class="anl">
+                <div class="xia"></div>
+                <div class="shang"></div>
+            </div>
+            <div class="xiaotu">
+                <div class="xihuan"></div>
+                <div class="shoucang"></div>
+                <div class="xiazai"></div>
+                <div class="fenxiang"></div>
+            </div>
+            <ul id="en">
+                <li class="df">播放最多</li>
+                <li class="df">下载最多</li>
+                <li class="df">分享最多</li>
+                <li class="df">最新MV</li>
+                <li class="df"><img src="img/san.png" alt="" class="san"></li>
+            </ul>
+            <ul id="sz">
+                <li class="s xzx">01</li>
+                <li class="xzx">02</li>
+                <li class="xzx">03</li>
+                <li class="xzx">04</li>
+                <li>...</li>
+            </ul>
+            <div class="guangs san"></div>
+            <div class="guangs sas"></div>
+            <div class="guangs asa"></div>
+            <div class="guangs nas"></div>
+        </div>
+    </div>
+</body>
+</html>
